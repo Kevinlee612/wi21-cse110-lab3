@@ -1,1 +1,60 @@
-"" 
+#classes{
+    text-align: center;/*center text*/
+}
+* {
+  color: black;
+}
+a[href="#classes"] {
+    font-weight: bold;
+    color: #000000;
+}
+h1 {
+    font-style: italic;
+    color: #000;
+    background-color: lightblue;
+    text-align:center;
+    border-style:double;
+    border-color: black;
+    border-width:2px;
+    border-radius: 5px;
+    margin-top: .2in;
+    margin-bottom: 8px;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    text-decoration: underline;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+a:visited{
+   color: rgba(50,150,20,.8);
+   margin:auto;
+}
+h2, h3{
+    margin-top: 1em;
+    margin-bottom: 2ch;
+    margin-left: 1ex;
+    font-style: italic;
+    color: hsl(38,22,20);
+    padding: 1px 1px 1px 1px;
+}
+div li{
+    font-weight: bold;
+    color: rgb(50,50,50);
+}
+ul > li {
+    font-size: 18px;
+    margin: 5px 0px 0px 5px;
+}
+figure ~ h2 {
+    font-size: 30px;
+    color: hsla(38,22,20,.8)
+}
+h2 + p {
+    font-style: oblique;
+}
+
+figure.head{
+    text-align: center;
+}
