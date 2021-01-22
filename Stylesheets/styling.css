@@ -1,1 +1,105 @@
-"" 
+@font-face {
+    font-family: Roboto;
+    src: url(../Roboto-Black.ttf);
+}
+@media only screen and (max-width: 400px) {
+    * {
+      background-color: red;
+    }
+}
+#classes{
+    text-align: center;/*center text*/
+}
+* {
+  color: black;
+}
+a[href="#classes"] {
+    font-weight: bold;
+    color: #000000;
+    min-width: 50%;
+    max-width: 300%;
+}
+h1 {
+    font-family: Roboto ;
+    font-style: italic;
+    color: #000;
+    background-color: lightblue;
+    text-align:center;
+    border-style:double;
+    border-color: black;
+    border-width:2px;
+    border-radius: 5px;
+    margin-top: .2in;
+    margin-bottom: 8px;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    text-decoration: underline;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    position: static;
+}
+a:visited{
+   color: rgba(50,150,20,.8);
+   margin:auto;
+}
+a:hover{
+    color: rgba(90,200,180,.8);
+    margin:auto;
+ }
+a:active{
+    color: rgba(10,50,180,.8);
+    margin:auto;
+}
+h2, h3{
+    margin-top: 1em;
+    margin-bottom: 2ch;
+    margin-left: 1ex;
+    font-style: italic;
+    color: hsl(38,22,20);
+    padding: 1px 1px 1px 1px;
+    display:block;
+    position:relative;
+}
+div li{
+    font-weight: bold;
+    color: rgb(50,50,50);
+}
+ul > li {
+    font-size: 18px;
+    margin: 5px 0px 0px 5px;
+}
+figure ~ h2 {
+    font-size: 30px;
+    color: hsla(38,22,20,.8)
+}
+h2 + p {
+    font-style: oblique;
+}
+
+figure.head{
+    text-align: center;
+}
+
+.disp {
+    display: none;
+}
+
+#Randomtopics {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+#misc {
+    display: flex;
+    flex-direction: column;
+}
+
+#draw {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-start: 2;
+}

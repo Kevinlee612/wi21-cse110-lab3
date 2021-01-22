@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="Stylesheets/styling.css">
   <title>Kevin's Page</title>
+  <style>
+      .meme{
+        text-align: center;
+      }
+  </style>
 </head>
 
 <body>
@@ -14,8 +19,8 @@
     </header>
 
     <main>
-        <figure>
-            <img src="Images_Videos/headshot.png" height="600" width="450">
+        <figure class="head">
+            <img src="Images_Videos/headshot.png" style="height:550px;width:400px;" class="head">
             <figcaption>Myself - Suk Chan (Kevin) Lee</figcaption>
         </figure>
         <h2>About Me</h2>
@@ -25,7 +30,7 @@
     </main>
     <hr>
     <nav>
-        <h2>Table of Contents</h2>
+        <h2 style="text-align:center;">Table of Contents</h2>
         <ul>
             <li><a href="#classes">Classes I Am Taking Winter 2021</a></li>
             <li><a href="#todolist">To Do List</a></li>
@@ -39,8 +44,9 @@
         </ul>
     </nav>
     <section id="Randomtopics">
-        <h2>Classes I Am Taking Winter 2021</h2>
+        
         <div id="classes">
+            <h2 style="text-align:center;">Classes I Am Taking Winter 2021</h2>
             <ul>
                 <li><b>CSE 110 Software Engineering</b></li>
                 <li>CSE 141 Intro to Computer Architecture</li>
@@ -59,8 +65,8 @@
                 <li><i>Watch Bitcoin hit $40,000 ATH</i></li>
             </ol>
         </div>
-        <h2>Code Quoting Example</h2>
         <span id="codeexample">
+            <h2>Code Quoting Example</h2>
             <code>
                 #!/usr/bin/python3<br>
                 print("Hello World!")
@@ -76,10 +82,10 @@
         </aside>
         <div id="favfruit">
             <fieldset>
-                <legend>So you said you like coconuts?</legend>
+                <legend class="meme">So you said you like coconuts?</legend>
                 <h2>My Favorite Fruit</h2>
                 <picture>
-                    <source media="(min-width:700px)" srcset="3711.jpg">
+                    <source media="(min-width:700px)" srcset="Images_Videos/3711.jpg">
                     <img src="Images_Videos/Coconuts-1280x720.jpg" width="600" height="400" alt="Nani">
                 </picture>
                 <details>
@@ -160,7 +166,7 @@
         <svg width="150" height="150">
             <circle cx="80" cy="80" r="60" stroke="black" stroke-width="4" fill="orange" />
         </svg><br>
-        <textarea id="circleStuff" name="circleText" rows="3" cols="50">This is a circle.</textarea>
+        <textarea id="circleStuff" class="shape" name="circleText" rows="3" cols="50">This is a circle.</textarea>
     </div>
 
     <h2>Some Kinda Inputs</h2>
@@ -198,6 +204,7 @@
             <input type="text" id="lastname2" name="lastname2">
           </form>
     </footer>
+    <p class="disp">Make this disappear</p>
 
 </body>
 
